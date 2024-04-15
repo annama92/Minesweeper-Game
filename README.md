@@ -2,18 +2,17 @@
 Minesweeper Game in C++ using Qt Framework
 
 ## Installing
-- IMPORTANT MODIFICATIONS NEEDED: Modify as1.pro file so that the line RESOURCES += /home/anna/as1/resources.qrc
+IMPORTANT MODIFICATIONS NEEDED: Modify as1.pro file so that the line RESOURCES += /home/anna/as1/resources.qrc
 reflects the correct filepath of the resources.qrc file (currently it is set to my personal user directory on WSL called "anna")
-- make sure minesweeper icon png files are in a folder in as1 called minesweeper_icons, otherwise, change file path in resource file as well (resources.qrc)
+Make sure minesweeper icon png files are in a folder in as1 called minesweeper_icons, otherwise, change file path in resource file as well (resources.qrc)
 
 ## Executing
-- This project was built on WSL Ubuntu with VSCode
-- Because WSL and XLaunch was used, there must be a connection between the display and WSL
+This project was built on WSL Ubuntu with VSCode. To run with WSL and XLaunch, establish a connection between the display and WSL:
   ```
-  1. Open XLaunch and select: start no client, make sure "Disable access control" is checked in extra settings, and save configuration 
-- 2. In WSL command prompt, run the command: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
-- 3. Run the following command to check if the display is connected: xeyes
-- 4. If the display is working, navigate to as1 directory and run: qmake as1.pro
-- 5. Then run: make 
-- 6. Finally, run the program: ./as1
+  1. Open XLaunch and select: start no client, make sure "Disable access control" is checked in extra settings, and save configuration
+  2. In WSL command prompt, run the command: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+  3. Run the following command to check if the display is connected: xeyes
+  4. If the display is working, navigate to as1 directory and run: qmake as1.pro
+  5. Then run: make
+  6. Finally, run the program: ./as1
   ```
