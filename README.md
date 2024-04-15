@@ -10,7 +10,7 @@ reflects the correct filepath of the resources.qrc file (currently it is set to 
 - This project was built on WSL Ubuntu with VSCode
 - Because WSL and XLaunch was used, there must be a connection between the display and WSL
   ```
-- 1. Open XLaunch and select: start no client, make sure "Disable access control" is checked in extra settings, and save configuration 
+  1. Open XLaunch and select: start no client, make sure "Disable access control" is checked in extra settings, and save configuration 
 - 2. In WSL command prompt, run the command: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
 - 3. Run the following command to check if the display is connected: xeyes
 - 4. If the display is working, navigate to as1 directory and run: qmake as1.pro
