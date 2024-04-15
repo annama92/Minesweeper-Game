@@ -1,6 +1,9 @@
 # Minesweeper-Game
 Minesweeper Game in C++ using Qt Framework
 
+## Video Demo
+https://youtu.be/xgH0kbIN1q8
+
 ## Installing
 MODIFICATIONS NEEDED: 
   ```
