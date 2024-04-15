@@ -2,9 +2,11 @@
 Minesweeper Game in C++ using Qt Framework
 
 ## Installing
-IMPORTANT MODIFICATIONS NEEDED: Modify as1.pro file so that the line RESOURCES += /home/anna/as1/resources.qrc
-reflects the correct filepath of the resources.qrc file (currently it is set to my personal user directory on WSL called "anna")
-Make sure minesweeper icon png files are in a folder in as1 called minesweeper_icons, otherwise, change file path in resource file as well (resources.qrc)
+MODIFICATIONS NEEDED: 
+  ```
+  Modify as1.pro file so that the line RESOURCES += /home/anna/as1/resources.qrc reflects the correct filepath of the resources.qrc file (currently it is set to my personal user directory on WSL called "anna")
+  Make sure minesweeper icon png files are in a folder in as1 called minesweeper_icons, otherwise, change file path in resource file as well (resources.qrc)
+  ```
 
 ## Executing
 This project was built on WSL Ubuntu with VSCode. To run with WSL and XLaunch, establish a connection between the display and WSL:
