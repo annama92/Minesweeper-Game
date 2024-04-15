@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="../CS">/Users/annama/4TH_YEAR_CS/CS</file>
+<file alias="3307">/Users/annama/4TH_YEAR_CS/Minesweeper/3307</file>
+<file alias="Individual">/Users/annama/4TH_YEAR_CS/Minesweeper/Individual</file>
+<file alias="Assignment">/Users/annama/4TH_YEAR_CS/Minesweeper/Assignment</file>
+</qresource>
+</RCC>

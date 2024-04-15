@@ -1,0 +1,9 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource>
+    <file>minesweeper_icons/bomb.png</file>
+    <file>minesweeper_icons/bomb_explode.png</file>
+    <file>minesweeper_icons/bomb_explode_sm.png</file>
+    <file>minesweeper_icons/mine_flag.png</file>
+</qresource>
+</RCC>
